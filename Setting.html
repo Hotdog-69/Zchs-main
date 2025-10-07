@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>home</title>
+</head>
+<link rel="stylesheet" href="Homess.css">
+<body>
+    <table class=logg>
+    <tr>
+      <td><img src=logozchs.png class=logo></td>
+      <td><h1 class=textlogo>Zamboang City High School (MAIN)</h1></td>
+    </tr>
+  </table>
+  <table rowspan=5 border=1 class=clror>
+    <tr>
+    <td><a href=Homm.html>Home</a></td>
+    <td><a href="history.html">History</a></td>
+    <td><a href="yearbook.html">Yearbook</a></td>
+    <td><a href="aboutus.html">About Us</a></td>
+       <td><a>Settings</a></td>
+    </tr>
+  </table>
+  <div class=margin>
+  <br>
+  <h3>Language</h3>
+  <div class=langtype>
+  <input type=radio name=lang id=S1 value=en checked>
+  <font>English</font>
+  <br>
+  <input type=radio name=lang id=S1 value=ph disabled="true">
+  <font>Tagalog (Under Construction)</font>
+  <br>
+  <input type=radio name=lang id=S1 value=alien disabled="true">
+  <font>Coming <font color=red>Soon</font></font>
+  </div>
+  <h3>Censorship</h3>
+   <div class=centype>
+  <input type=radio name=cent id=S201 value=1 id=cen onclick="sets()">
+  <font>None</font>
+  <br>
+  <font color=gray> Uncensored Everything (Not Recommended)</font>
+  <br>
+  <input type=radio name=cent id=S202 value=2 id=cen onclick="sets()">
+  <font>Light</font>
+  <br>
+  <font color=gray> Uncensors semi-mature words</font>
+  <br>
+  <input type=radio name=cent id=S203 value=3 id=cen onclick="sets()">
+  <font>Moderate</font>
+  <br>
+  <font color=gray> Uncensors mild mature words</font>
+   <br>
+  <input type=radio name=cent id=S204 value=4 onclick="sets()">
+  <font>Heavy</font>
+  <br>
+  <font color=gray> Child words</font>
+  </div>
+  <h3>Screen mode</h3>
+   <div class=scrtype>
+  <input type=radio name=Sm id=S3 value=flashbang checked>
+  <font>Light</font>
+  <br>
+  <input type=radio name=Sm id=S3 value=mid>
+  <font>Gray</font>
+  <br>
+  <input type=radio name=Sm id=S3 value=based>
+  <font>Dark</font>
+  </div>
+  </div>
+  <br>
+    <title class=censor2></title>
+    <title class=censor1></title>
+    <title class=censor3></title>
+</body>
+<script src="Webjs.js">
+</script>
+</html>
